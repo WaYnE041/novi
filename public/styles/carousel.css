@@ -1,0 +1,135 @@
+/* Carousel CSS  -----------------------------------------------*/
+
+.carousel {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  gap: 1em;
+  scroll-behavior: smooth;
+  anchor-name: --carousel;
+  scroll-snap-type: x mandatory;
+  scroll-marker-group: after;
+}
+
+.carousel::scroll-marker-group {
+  display: flex;
+  justify-content: center;
+  gap: 0.2em;
+}
+
+.carousel-card::scroll-marker {
+  content: ' ';
+  height: 0.75em;
+  width: 0.75em;
+  background-color: #5c5c92;
+  border-radius: 50%;
+}
+
+.carousel-card::scroll-marker:target-current {
+  background-color: var(--btn-hover-color);
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel::scroll-button(right), .carousel::scroll-button(left) {
+  content: '→';
+  background-color: var(--btn-color);
+  font-family: Consolas;
+  font-size: 3em;
+  color: #fff;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding-bottom: .1em;
+  cursor: pointer;
+  position: fixed;
+  position-anchor: --carousel;
+  position-area: right center;
+  translate: -50%;
+  border: none;
+}
+
+.carousel::scroll-button(left) {
+  content: '←';
+  position-area: left center;
+  translate: 50%;
+}
+
+.carousel::scroll-button(right):hover, 
+.carousel::scroll-button(left):hover {
+  background-color: var(--btn-hover-color);
+}
+
+.carousel::scroll-button(right):disabled, 
+.carousel::scroll-button(left):disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.carousel-card {
+  background-color: #5c5c92;
+  scroll-snap-align: start;
+  flex: 0 0 30em;
+  aspect-ratio: 5 / 3;
+  border-radius: .5em;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carousel-container {
+  aspect-ratio: inherit;
+  border-radius: inherit;
+  position: relative;
+}
+
+.carousel-card .carousel-img {
+  width: 100%;
+  opacity: 70%;
+  object-fit: cover;
+  aspect-ratio: inherit;
+  border-radius: inherit;
+  margin: 0;
+  vertical-align: top;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.carousel-button {
+  height: 100%;
+  border-radius: .5em;
+  align-content: center;
+  aspect-ratio: 5 / 3;
+}
+
+.carousel-button:hover {
+  background-color: #3f3f68;
+  
+}
+
+.carousel-card,
+.carousel-card a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media(max-width: 800px) {
+  .carousel-card {
+    flex: 0 0 100%;
+  }
+}

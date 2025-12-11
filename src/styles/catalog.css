@@ -1,0 +1,66 @@
+/* Catalog CSS  -----------------------------------------------*/
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  place-items: center;
+  gap: 30px;
+  padding: .5rem
+}
+
+.grid img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+    width: 250px;
+    display: flex; 
+    flex-direction: column; 
+    border-radius: 15px;
+    box-shadow: 2px 7px 13px 0px rgba(0,0,0,0.2);
+    overflow: hidden; 
+}
+
+.card-body{
+    background-color: #fff;
+    flex-grow: 1;
+    padding: 24px; 
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px; 
+    padding: 0px; 
+}
+.card-text{
+    line-height: 1.4;
+    margin: 10px 0px 0px 0px; 
+    font-size: 17px;
+}
+
+.card-button {
+    background-color: var(--btn-color);
+    text-transform: uppercase;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.card-button:hover {
+    background-color: var(--btn-hover-color);
+    color: #FFFFFF;
+    text-decoration: none;
+}
