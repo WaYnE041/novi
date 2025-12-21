@@ -1,17 +1,17 @@
 @font-face {
   font-family: 'Special Gothic Expanded One';
   font-display: swap;
-  src: url("../fonts/SpecialGothicExpandedOne-Regular.ttf") format("truetype");
+  src: url("./fonts/SpecialGothicExpandedOne-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Bebas Neue';
   font-display: swap;
-  src: url("../fonts/BebasNeue-Regular.ttf") format("truetype");
+  src: url("./fonts/BebasNeue-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Cal Sans';
   font-display: swap;
-  src: url("../fonts/CalSans-Regular.ttf") format("truetype");
+  src: url("./fonts/CalSans-Regular.ttf") format("truetype");
 }
 
 :root {
