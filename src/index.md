@@ -16,7 +16,7 @@ featured_image: favicon.png
 </div>
 {% endfor %}
 <div class="carousel-card ">
-    <a href="/catalog/">
+    <a href="./catalog/">
         <span class="carousel-button" style="display: block;">
             Full Catalog »
         </span>
