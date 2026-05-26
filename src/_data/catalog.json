@@ -3,49 +3,49 @@
         "name": "Art 1",
         "img": "./images/IMG_0794.jpg",
         "price": "$18.00",
-        "desc": " ",
+        "desc": "Art 1 Description",
         "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
     },
     {
         "name": "Art 2",
         "img": "./images/IMG_0795.jpg",
         "price": "$18.00",
-        "desc": " ",
+        "desc": "Art 2 Description",
         "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
     },
     {
         "name": "Art 3",
         "img": "./images/IMG_0797.jpg",
         "price": "$18.00",
-        "desc": " ",
+        "desc": "Art 3 Description",
         "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
     },
     {
         "name": "Art 4",
         "img": "./images/IMG_0798.jpg",
         "price": "$18.00",
-        "desc": " ",
+        "desc": "Art 4 Description",
         "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
     },
     {
         "name": "Art 5",
         "img": "./images/IMG_0799.jpg",
         "price": "$18.00",
-        "desc": " ",
+        "desc": "Art 5 Description",
         "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
     },
     {
         "name": "Art 6",
         "img": "./images/IMG_0802.jpg",
         "price": "$18.00",
-        "desc": " ",
+        "desc": "Art 6 Description",
         "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
     },
     {
         "name": "Art 7",
         "img": "./images/IMG_0803.jpg",
         "price": "$18.00",
-        "desc": " ",
+        "desc": "Art 7 Description",
         "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
     }
 ]
