@@ -1,10 +1,51 @@
 [
     {
-        "name": "TC sandbox",
-        "img": "./images/placehold.png",
+        "name": "Art 1",
+        "img": "./images/IMG_0794.png",
         "price": "$18.00",
         "desc": " ",
         "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
-         
+    },
+    {
+        "name": "Art 2",
+        "img": "./images/IMG_0795.png",
+        "price": "$18.00",
+        "desc": " ",
+        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
+    },
+    {
+        "name": "Art 3",
+        "img": "./images/IMG_0797.png",
+        "price": "$18.00",
+        "desc": " ",
+        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
+    },
+    {
+        "name": "Art 4",
+        "img": "./images/IMG_0798.png",
+        "price": "$18.00",
+        "desc": " ",
+        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
+    },
+    {
+        "name": "Art 5",
+        "img": "./images/IMG_0799.png",
+        "price": "$18.00",
+        "desc": " ",
+        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
+    },
+    {
+        "name": "Art 6",
+        "img": "./images/IMG_0802.png",
+        "price": "$18.00",
+        "desc": " ",
+        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
+    },
+    {
+        "name": "Art 7",
+        "img": "./images/IMG_0803.png",
+        "price": "$18.00",
+        "desc": " ",
+        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
     }
 ]
