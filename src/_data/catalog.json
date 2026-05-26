@@ -5,61 +5,6 @@
         "price": "$18.00",
         "desc": " ",
         "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
-    },
-    {
-        "name": "TC sandbox",
-        "img": "./images/placehold.png",
-        "price": "$18.00",
-        "desc": " ",
-        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
-    },
-    {
-        "name": "TC sandbox",
-        "img": "./images/placehold.png",
-        "price": "$18.00",
-        "desc": " ",
-        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
-    },
-    {
-        "name": "TC sandbox",
-        "img": "./images/placehold.png",
-        "price": "$18.00",
-        "desc": " ",
-        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
-    },
-    {
-        "name": "TC sandbox",
-        "img": "./images/placehold.png",
-        "price": "$18.00",
-        "desc": " ",
-        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
-    },
-    {
-        "name": "TC sandbox",
-        "img": "./images/placehold.png",
-        "price": "$18.00",
-        "desc": " ",
-        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
-    },
-    {
-        "name": "TC sandbox",
-        "img": "./images/placehold.png",
-        "price": "$18.00",
-        "desc": " ",
-        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
-    },
-    {
-        "name": "TC sandbox",
-        "img": "./images/placehold.png",
-        "price": "$18.00",
-        "desc": " ",
-        "link": "https://buy.stripe.com/test_28E8wP7C563j3sc6CX2wU00"
-    }
-    {
-        "name": "Vash",
-        "img": "./images/placehold.png",
-        "price": "$18.00",
-        "desc": "Vash Desc",
-        "link": "https://buy.stripe.com/bJe5kC1PW78baV98YC0oM03"        
+         
     }
 ]
