@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: What's New
+title: Home
 description: Ecommerce Homepage
 featured_image: favicon.png
 ---
