@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://yourwebsitehere.com/">
-  <title>My Cool Blog</title>
-  <subtitle>This is the description for My Cool Blog!</subtitle>
+  <title>Art Shop</title>
+  <subtitle>This is the description!</subtitle>
   <link href="https://yourwebsitehere.com/rss.xml" rel="self"/>
-  <updated>2026-05-29T14:08:31Z</updated>
+  <updated>2026-05-29T14:12:43Z</updated>
   <id>https://yourwebsitehere.com/</id>
   <author>
     <name>Dennis the Menace</name>
